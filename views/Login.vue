@@ -48,7 +48,7 @@ export default {
   name: 'login',
   data() {
         return {
-            header: require('../src/assets/card_header.jpeg'),
+            header: require('../src/assets/card_header.jpg'),
             name: null,
             password: null
         }

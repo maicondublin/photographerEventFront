@@ -95,7 +95,7 @@
                                     required
                                 ></v-text-field>
                             </v-col>
-                            <!-- if not editing item editingItem is equal to false, this field does not appear -->
+                            <!-- se não fo edição de item editingItem for igual a false, não aparece este campo -->
                             <v-col
                                 v-if="!editingItem"
                                 cols="6"
@@ -147,7 +147,7 @@
                     >
                         Close
                     </v-btn>
-                    <!-- save button calls function according to the variable editingItem -->
+                    <!-- botão de salvar chama função de acordo com a variavel editingItem -->
                     <v-btn
                         color="green"
                         text
@@ -278,7 +278,7 @@ export default {
 }
 </script>
 
-<style scoped> /* scoped, to restrict style to this page only*/
+<style scoped> /* scoped, para restringir estilo somente para esta página */
 .page-flex{
     display: flex;
     align-items: center;

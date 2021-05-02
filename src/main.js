@@ -8,7 +8,7 @@ Vue.config.productionTip = false
 Vue.prototype.moment = moment
 
 new Vue({
-  router, // adding the routes in the front-end application
+  router, // adicionando as rotas na aplicação front-end
   vuetify,
   render: h => h(App),
 }).$mount('#app')

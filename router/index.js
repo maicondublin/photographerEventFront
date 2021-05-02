@@ -5,11 +5,11 @@ import Events from '../views/Events.vue'
 
 Vue.use(VueRouter)
 
-const routes = [ //screen rendering routes
+const routes = [ // rotas de renderização de telas
     {
-        path: '/', //the '/' route is called standard, when accessing the application link, in our case we want it to go to the login screen
+        path: '/', // a rota  '/' é chamada padrão, ao acessar o link da aplicação, no nosso caso queremos que vá para tela de login
         name: 'Login',
-        component: Login  // component is the vue file (screen) that will render
+        component: Login  // component é a o arquivo vue(tela) que vai renderizar
     },
     {
         path: '/events',
